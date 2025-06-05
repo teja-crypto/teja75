@@ -1,0 +1,70 @@
+header {
+            background-color: #0d6efd;
+            color: white;
+            padding: 2rem 1rem;
+            text-align: center;
+        }
+        header h1 {
+            margin-bottom: 0.5rem;
+            font-size: 2.5rem;
+        }
+        header p {
+            font-size: 1.2rem;
+        }
+        nav {
+            background-color: #333;
+            display: flex;
+            justify-content: center;
+        }
+        nav a {
+            color: white;
+            padding: 1rem;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+        nav a:hover {
+            background-color: #575757;
+        }
+        section {
+            padding: 2rem;
+            max-width: 900px;
+            margin: auto;
+        }
+        .section-title {
+            font-size: 1.8rem;
+            margin-bottom: 1rem;
+            border-bottom: 2px solid #0d6efd;
+            display: inline-block;
+        }
+        .card {
+            background-color: white;
+            padding: 1.5rem;
+            margin: 1rem 0;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+        }
+        footer {
+            background-color: #0d6efd;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+        }
+        .skills, .hobbies {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+        .skills div, .hobbies div {
+            background-color: #e0e0e0;
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+        }
+        .contact-list li {
+            list-style: none;
+            margin-bottom: 0.5rem;
+        }
+        a {
+            color: #0d6efd;
+        }
+    </style>
+</head>
